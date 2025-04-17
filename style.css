@@ -1,1 +1,107 @@
-/* ここにCSSを記述してください */
+/* 解答例: ブログ記事ページのスタイル */
+
+body {
+    padding: 0 15px;
+}
+
+#page-header {
+    height: 60px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#page-header h1 {
+    font-size: 24px;
+    line-height: 60px;
+    /* ヘッダーの高さに合わせる */
+}
+
+#main-container {
+    max-width: 1000px;
+    margin: 80px auto 0 auto;
+    /* 上マージン + 左右autoで中央揃え */
+    display: flex;
+}
+
+#content {
+    width: 70%;
+    padding-right: 20px;
+}
+
+#sidebar {
+    width: 30%;
+}
+
+article.blog-post {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.post-meta {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    color: #555555;
+    line-height: 1.7;
+}
+
+.read-more-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.read-more-link:hover {
+    background-color: #0056b3;
+}
+
+.widget {
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.widget-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 5px;
+}
+
+.widget ul li {
+    margin-bottom: 8px;
+}
+
+.widget ul li a:hover {
+    text-decoration: underline;
+}
+
+#page-footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+}
