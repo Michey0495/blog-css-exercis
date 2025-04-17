@@ -10,10 +10,6 @@
 ![完成イメージ1](images/blog_images_wide.png)
 ![完成イメージ2](images/blog_images_height.png)
 
-
-## テスト
-表示される？
-
 ## リポジトリのファイル構成
 
 * `blog.html`: スタイリング対象のHTMLファイルです。 **編集は不要です。**
