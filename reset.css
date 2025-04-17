@@ -1,0 +1,41 @@
+/* 基本的なリセットとbodyのデフォルトスタイル */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+div,
+main,
+aside,
+header,
+footer,
+article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    /* box-sizingを追加 */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    /* 基本の行の高さを設定 */
+    background-color: #F8F8F8;
+    /* ページの背景色 */
+}
